@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1450px;
+    margin: 0px auto;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  white;
+}
+header{
+    width: 100%;
+    height: 500px;
+    border: none;
+    margin: 0px auto;
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background: url(./Banner.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav{
+    margin: 0px auto;
+    width: auto;
+    height: 100px;
+    clear: both;
+    margin-top: 10px;
+    position: relative;
+}
+.logo{
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    background: url(./PS20220_ShopKhoaVăn_LoGo.png);
+    background-size: 100% 100%;
+}
+.containermenu{
+    position: absolute ;
+    width: 740px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.menu{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu>a{
+    text-decoration: none;
+    color: black;
+}
+.menu>a:hover{
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: chocolate;
+}
+.tsp{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 40px;
+}
+.tsp>input{
+    height: 40px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 10ppx 10ppx 10ppx 10ppx;
+    font-weight: bold;
+    color: black;
+    background: #f1f1f1;
+}
+.icon{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 1070px;
+    margin-top: 30px;
+}
+.user{
+    height: 100%;
+    width: 100%;
+    background: url(./icon-user.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.icon1{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 1140px;
+    margin-top: 30px;
+}
+.tim{
+    height: 100%;
+    width: 100%;
+    background: url(./icon-tim.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.icon2{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    margin-left: 1210px;
+    margin-top: 30px;
+}
+.giohang{
+    height: 100%;
+    width: 100%;
+    background: url(./icon-giohang.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.menu2{
+    width: 1450px;
+    height: 600px;
+    text-align: center;
+    background: #ffefef;
+    position: relative;
+    clear: both;
+}
+.a{
+    margin-bottom: 20px;    
+    display: inline;
+}
+.a>a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+}
+.a>a:hover{
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: x-large;
+    color: chocolate;
+    font-weight: bold;
+}
+.chu{
+    margin: 20px;
+    font-size: xx-large;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.boxmenu{
+    display: inline-flex;
+    margin: 0px 50px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid chocolate;
+    border-radius: 20px 20px 20px 20px;
+}
+.boxmenu>a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: #5f5f5f;
+    margin: 0px auto;
+    margin-top: 10px;
+
+}
+.boxmenu:hover{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #fd9000;
+
+}
+.banner2{  
+    height: 400px;
+    width: 1250px;
+    background: url(./PS20220_VõĐứcKhoaVăn_banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+.menu3{
+    width: 1450px;
+    height: 500px;
+    text-align: center;
+    background: #ffefef;
+    position: relative;
+    clear: both;
+}
+.boxsp{
+    margin-top: 50px;
+    width: 18%;
+    margin-left: 80px;
+    float: left;
+    height: 400px;
+    text-align: center;
+}
+.imgboxsp{
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+.iconboxsp>img{
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position: center center;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.iconboxsp>img:hover{
+    background: brown;
+    border-radius: 50%;
+    background-image: url(./icon-tim.png);
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position: center center;
+}
+.iconboxsp1>img{
+    height: 50px;
+    width: 50px;
+    background: #f1f1f1;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 90% 90%;
+    background-position: center center;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+.iconboxsp1>img:hover{
+    background: brown;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center center;
+}
+.tensp{
+    font-weight:700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.boxsp>a{
+    text-decoration: none;
+    color: black;
+}
+.boxsp>a:hover{
+    text-decoration: none;
+    color: #fd9000;
+}
+.giasp{
+    color: #fd9000;
+    font-weight: bold;
+    font-size: x-large;
+}
+.banner3{  
+    height: 500px;
+    width: 100%;
+    background: url(./Banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.banner4{  
+    height: 500px;
+    width: 1450px;
+    background: url(./Banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+.banner5{  
+    height: 500px;
+    width: 1450px;
+    background: url(./Banner5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 50px;
+}
+footer{
+    margin-top: 40px;
+    height: 400px;
+    width: 1440px;
+    background: #1e1c56;
+    display: inline-flex;
+}
+.text{
+   color: #f1f1f1;
+   font-size: large;
+    padding-left: 30px;
+    padding-top: 20px;
+    max-width: 570px;
+}
+.dangky{
+    width: 400px;
+    height: 32px;
+    border: 3px solid white;
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 10px;
+    margin-left: 30px;
+    position: relative;
+}
+.dangky>input{
+    height: 32px;
+    width: 280px;
+    font-size: large;
+    font-weight: 700;
+    border: none;
+}
+#buttondk{
+    position: absolute;
+    width: 117px;
+    height: 30px;
+    background: #fd9000;
+    text-align: center;
+}
+.dkntt{
+    width: 300px;
+    height: auto;
+    color: #fd9000;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.logomxh{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.boxmxh{
+    display: inline;
+    margin: 10px;
+}
+.boxmxh>img{
+    max-width: 50px;
+    height: 50px;
+}
+.containerbox1{
+    width: 600px;
+    height: auto;
+}
+.veyody{
+    margin-top: 30px;
+    width: 150px;
+    height: auto;
+    margin-left: 100px;
+}
+.veyody>ul{
+    list-style: none;
+    color: #fd9000;
+    font-variant: small-caps;
+}
+.veyody>ul>li{
+    margin-top: 20px;
+}
+.veyody>ul>li>a{
+
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+}
+.htkh{
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+    margin-left: 150px;
+}
+.htkh>ul{
+    list-style: none;
+    color: #fd9000;
+    font-variant: small-caps;
+    text-align: center;
+}
+.htkh>ul>li{
+    margin-top: 20px;
+    text-align: left;
+}
+.htkh>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+}
+.dk{
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 150px;
+    width: 1140px;
+    height: 2px;
+    border-bottom: 2px solid white;
+}
+.bq{
+    position: absolute;
+    font-size: large;
+    color: #fd9000;
+    margin-top: 370px;
+    margin-left: 600px;
+
+}
+/* mobile: */
+@media only screen and (max-width: 576px) {
+    
+}
+/* table: */
+@media only screen and (max-width: 768px) and (max-width: 63.9573em) {
+    .container{
+        width: 768px;
+    }
+    .banner{
+        width: 100%;
+    }
+    .containermenu{
+        width: 50%;
+        margin-top: 20px;
+    }
+    .tsp{
+        display: none;
+    }
+    .icon{
+        margin-left: 550px;
+    }
+    .icon1{
+        margin-left: 620px;
+    }
+    .icon2{
+        margin-left: 690px;
+    }
+    .menu2{
+        width: 100%;
+        margin: 0px auto;
+    }
+    .boxmenu{
+        margin: 0px 30px;
+    }
+    .banner2{
+        width: 100%;
+    }
+    .menu3{
+        display: none;
+    }
+    .banner3{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .banner4{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    .banner5{
+        width: 100%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+    footer{
+        display: none;
+    }
+}
